@@ -1,0 +1,68 @@
+Scenario 1:
+
+	Step 1:	Create an Interface PATIENT.java
+	Step 2: Create Methods setId(), getId(), isAdmitted(), admitPatient()
+	Step 3:	Create a Class NEWPATIENT.java which implements Interface PATIENT.java
+	Step 4: Implement all the UnImplemented Methods
+	
+	Step 5:	Create a Class ADMITTEDPATIENT.java EXTENDS NEWPATIENT.java
+	Step 6: Catch is - ADMITTEDPATIENT.java has a SAME Method which is in NEWPATIENT.java
+	Step 7:	Solution is - design technique - Leave the Same Method EMPTY @ Parent - NEWPATIENT.java
+
+	Step 8:		Create 4 Variables in NEWPATIENT.java
+					id, diagnose, treatment, isAdmitted
+					public int id;
+					public String diagnose;
+					public String treatment;
+					public boolean isAdmitted;
+					
+	Step 9:		Now - We have
+				PATIENT.java Interface with 4 Unimplemented Methods
+				NEWPATIENT.java Class implemented PATIENT.java
+				NEWPATIENT.java has 4 variables declared
+				ADMITPATIENT.java EXTENDS NEWPATIENT.java
+				-- &
+				Changes --
+				--
+				Create 2 More methods in NEWPATIENT.java class
+				--Means do the Modifications in PATIENT.java Interface also
+				
+				
+	Step 10:
+	Step 11: 
+	Step 12:
+	Step 13:
+	Step 14: 
+	Step 15:
+	Step 16:
+	Step 17:
+	Step 18:	
+	Step 19:
+	Step 20:
+	
+
+
+
+
+Scenario 1:
+
+	Step 1: 
+	Step 2:
+	Step 3:
+	Step 4: 
+	Step 5:
+	Step 6:
+	Step 7:
+	Step 8:	
+	Step 9:
+	Step 10:
+	Step 11: 
+	Step 12:
+	Step 13:
+	Step 14: 
+	Step 15:
+	Step 16:
+	Step 17:
+	Step 18:	
+	Step 19:
+	Step 20:

@@ -1,0 +1,144 @@
+#################################
+@@@ ---  QS-DDF-Part-4-2 ---  @@@
+#################################
+
+Application KeyWords
+--------------------
+	Questions :
+		Q> 
+		Q> 
+		
+	Modifications :
+		M> @ > Video :> 
+		M> @ > Video :> 	
+		
+
+
+Generic Keywords
+-----------------
+	QUESTIONS :
+	
+		QUESTION > - @ 12:29 -  HOW to read values from Properties file - which contains any LOCATOR 
+		
+	MODIFICATIONS :
+	
+		MODIFICATION TWO > @ 14:00 - > Video 4_2 >
+				
+				Replace as " locatorKey " throughout the function
+				@ public WebElement getElement(String locatorKey) { }
+				
+		 
+		MODIFICATION THREE > @ 14:20 - > Video 4_2 > 
+				
+				Replace as " getElement((locatorKey)).click(); "
+				@ public void click(String locatorKey) {}
+				
+		
+		MODIFICATION FOUR > @ 14:40 - > Video 4_2 > 
+		
+				Replace as " getElement((locatorKey)).sendKeys(data); "
+				public void type(String locatorKey, String data) {}
+				
+		QUESTION > How do you Choose Dynamically  LOCATOR
+					@ getElement(), @isElementPresent(), @isElementVisible() - driver.findElement(By.id("")) -  
+						
+		MODIFICATION FIVE > @ 17:30 - > Video 4_2 >
+		
+				@ @ public WebElement getElement(String locatorKey) { }
+				REPLACE ----
+					--- WebElement element = driver.findElement(By.id(locatorKey)); ----
+				WITH ---
+				
+					WebElement element = null;
+					if(locatorKey.endsWith("_id"))
+						driver.findElement(By.id(prop.getProperty(locatorKey)));
+					else if(locatorKey.endsWith("_css"))
+						driver.findElement(By.cssSelector(prop.getProperty(locatorKey)));
+					else if(locatorKey.endsWith("xpath"))
+						driver.findElement(By.xpath(prop.getProperty(locatorKey)));
+					else if(locatorKey.endsWith("_name"))
+						driver.findElement(By.name(prop.getProperty(locatorKey)));
+						
+				 	--- 
+				 	
+		MODIFICATION SIX > @ 17:50 - > Video 4_2 >
+		
+			public boolean isElementPresent(String locatorKey) {
+			
+					System.out.println("Checking presence of " + locatorKey);
+					WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+					try {
+						if(locatorKey.endsWith("_id"))
+							wait.until(ExpectedConditions.presenceOfElementLocated(By.id(prop.getProperty(locatorKey))));
+						else if(locatorKey.endsWith("_css"))
+							wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(prop.getProperty(locatorKey))));
+						else if(locatorKey.endsWith("_xpath"))
+							wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(prop.getProperty(locatorKey))));
+						else if(locatorKey.endsWith("_name"))
+							wait.until(ExpectedConditions.presenceOfElementLocated(By.name(prop.getProperty(locatorKey))));
+					} catch (Exception e) {
+						return false;
+					}
+					return true;
+			}
+				
+				 	
+		MODIFICATION SEVEN > @ 17:50 - > Video 4_2 >
+		 		
+
+Validation Keywords
+--------------------
+	Questions :
+		Q> 
+		Q> 
+		
+	Modifications :
+		M> @ > Video :> 
+		M> @ > Video :> 
+
+env.properties
+---------------
+# MODIFICATION - ONE - VIDEO - 4_2 @ 13:00
+
+	Questions : How to declare KeyHandlers, so that Locator Identification would be easy
+					 # Trick - End KeyHandler Ends with LOCATOR
+							#-----username_css
+							#-----password_xpath
+							#-----login_submit_id
+		
+	Modifications :
+		M1 > @ 13:00 > Video 4_2 :> 
+					 # Trick - End KeyHandler Ends with LOCATOR
+							#-----username_css
+							#-----password_xpath
+							#-----login_submit_id
+
+prod.properties
+----------------
+	Questions :
+		Q> 
+		Q> 
+		
+	Modifications :
+		M> @ > Video :> 
+		M> @ > Video :> 
+
+uat.properties
+---------------
+	Questions :
+		Q> 
+		Q> 
+		
+	Modifications :
+		M> @ > Video :> 
+		M> @ > Video :> 
+
+CreateProfile
+--------------
+	Questions :
+		Q> 
+		Q> 
+		
+	Modifications :
+		M> @ > Video :> 
+		M> @ > Video :> 

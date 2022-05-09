@@ -1,0 +1,50 @@
+Discussing Problems faced with this kind of implementing POM - 
+In earlier days people used this kind of Implementation
+
+Question 1	: How do you Pass DRIVER(Initialised @ LoginTest), into EACH PAGE Class? Do u recommend this approach?
+Question 2	: Issue: Passing of DRIVER OBJECT to EveryWhere(to PAGE CLASSES) - How to Overcome
+Question 3	: Issue: Passing of OTHER OBJECTS (Ex: EXTENTREPORTS OBJECTS etc) to EveryWhere (to PAGE CLASSES) - How to Overcome
+
+
+
+Scenario 1:	
+
+	Step 1: Create package - pages & classes 
+				1. LaunchPage.java
+				2. HomePage.java
+				3. EnterUserNamePage.java
+				4. EnterPasswordPage.java
+				
+	Step 2: Create a Package - testcases & classes
+				1. LoginTest.java
+				
+	Step 3: Lets see How the Problem is going to arise
+				1. Create a method loginTest()
+				2. Use the Annotation @Test
+				3. Design code to Launch the Application*(Yahoo.com)
+				4. INITIALIZE THE DRIVER
+				5. Means u r LAUNCHING the Page - So
+				6. Create an OBJECT of LAUNCH PAGE in loginTest() under - LOGINTEST.java
+				7. Output of any page is REACHING u to another PAGE / portion of the same Page
+				
+				8. Under LAUNCHPAGE.java - create a METHOD navigateToHomePage() {} - which redirects to Next Page
+				
+				
+				
+	Step 4: 
+	Step 5:
+	Step 6:
+	Step 7:
+	Step 8:	
+	Step 9:
+	Step 10:
+	Step 11: 
+	Step 12:
+	Step 13:
+	Step 14: 
+	Step 15:
+	Step 16:
+	Step 17:
+	Step 18:	
+	Step 19:
+	Step 20:

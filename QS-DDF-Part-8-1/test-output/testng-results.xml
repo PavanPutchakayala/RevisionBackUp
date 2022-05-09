@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-26T21:28:22 CEST" name="Booking Suite" finished-at="2022-04-26T21:28:22 CEST" duration-ms="53">
+    <groups>
+    </groups>
+    <test started-at="2022-04-26T21:28:22 CEST" name="Create Booking Test - Apply Discount - Pay@Hotel" finished-at="2022-04-26T21:28:22 CEST" duration-ms="53">
+      <class name="testcases.PaymentManager">
+        <test-method signature="applyDiscount()[pri:0, instance:testcases.PaymentManager@7d68ef40]" started-at="2022-04-26T21:28:22 CEST" name="applyDiscount" finished-at="2022-04-26T21:28:22 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyDiscount -->
+        <test-method signature="makePayment()[pri:0, instance:testcases.PaymentManager@7d68ef40]" started-at="2022-04-26T21:28:22 CEST" name="makePayment" finished-at="2022-04-26T21:28:22 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makePayment -->
+      </class> <!-- testcases.PaymentManager -->
+      <class name="testcases.BookingSearch">
+        <test-method signature="searchHotel()[pri:0, instance:testcases.BookingSearch@145eaa29]" started-at="2022-04-26T21:28:22 CEST" name="searchHotel" finished-at="2022-04-26T21:28:22 CEST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotel -->
+        <test-method signature="selectHotel()[pri:0, instance:testcases.BookingSearch@145eaa29]" started-at="2022-04-26T21:28:22 CEST" name="selectHotel" finished-at="2022-04-26T21:28:22 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHotel -->
+        <test-method signature="enterGuestInfo()[pri:0, instance:testcases.BookingSearch@145eaa29]" started-at="2022-04-26T21:28:22 CEST" name="enterGuestInfo" finished-at="2022-04-26T21:28:22 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterGuestInfo -->
+      </class> <!-- testcases.BookingSearch -->
+      <class name="testcases.CustomerCommunications">
+        <test-method signature="doLogin()[pri:0, instance:testcases.CustomerCommunications@5b0abc94]" started-at="2022-04-26T21:28:22 CEST" name="doLogin" finished-at="2022-04-26T21:28:22 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- testcases.CustomerCommunications -->
+    </test> <!-- Create Booking Test - Apply Discount - Pay@Hotel -->
+  </suite> <!-- Booking Suite -->
+</testng-results>

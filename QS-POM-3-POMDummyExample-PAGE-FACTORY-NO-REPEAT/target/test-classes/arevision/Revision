@@ -1,0 +1,35 @@
+	
+	BasePage
+				> WebDriver Declaration
+				> Constructor Default  - just for Verification
+				> Constructor Single Parameter - WebDriver driver
+					> 1. Local Driver
+					> 2. Initialising Objects - PageFactory 			
+	
+	LaunchPage
+				> Constructor - Parameter - Super Driver
+				> Launch Browser - Initialise HomePage
+	CONSTANTS
+				> Declare Variables for LOCATORS
+				
+				
+	HomePage
+				> Constructor - Parameter - Super Driver 
+				> @Findby - PreDefined Annotation
+				> Access the LoginLink - Initialise EnterUserNamePage
+				
+	
+	EnterUserNamePage
+				> Constructor - Parameter - Super Driver
+				> @Findby - PreDefined Annotation
+				> Access UserName
+				> Access Button
+	
+	EnterPasswordPage
+				>  
+				> 
+	
+	
+	LoginTest
+				> 
+				> 

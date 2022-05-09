@@ -1,0 +1,98 @@
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@ Starting @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	Video 3	: 
+	Duration:	 
+	Scenario:
+	Question:
+	Solution:
+	Input	:
+	###################################################################
+	Step1: Create an Interface with all the METHODS
+	Step2: WRT - Size split into multiple Interfaces accordingly
+	Step3: EXTEND all the Interfaces to a SINGLE INTERFACE
+	Step4: in ZOHOBASEPAGE.java - u can implement in 2 WAYS
+			1> ABSTRACT 
+			2> IMPLEMENT
+			3> Choose - Implement ALL UNIPLEMENTED Methods & 
+				Leave ALL Methods BLANK (Popular Design Approach)
+			
+				 
+	Step5: Ensure Each pages EXTENDS - ZOHOBASEPAGE.java
+	
+			> LaunchPage.java Extends ZOHOBASEPAGE.java
+			> HomePage.java Extends ZOHOBASEPAGE.java
+			> EnterUserNamePage.java Extends ZOHOBASEPAGE.java
+			> EnterPasswordPage.java Extends ZOHOBASEPAGE.java
+			
+	Step6: Question / Scenario: Which METHOD Execute? Child/Parent?
+			Under LoginTest.java 
+				> Create an Object - ZohoPage REFERENCE & LAUNCHPAGE class
+				> CATCH - Both have Same METHOD name
+						- goToHomePage() @ ZOHOBASEPAGE.java
+						- goToHomePage() @ LAUNCHPAGE.java - IMPLEMENTATION towaaards ZohoBasePage
+						
+	############################  END ####################################################################
+	
+	
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@ Topic 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	Video 3	: 
+	Duration:	@ 35:00 - 38:00
+	Scenario:	Driver Created in TC 
+				- Has to be Passed into all the PAGE Classes
+				- Driver can be created Either Directly / EventFiringWebDriver
+				- HOW TO PASS DRIVER OBJECT to all the PAGE CLASSES from TESTCASE
+				- DONT Pass Driver into Each Page Class  through Constructor
+				- Use SESSION
+	Question:	How to Pass Driver - to all - PageClasses ?
+	
+	Solution:	Get Driver - from - SESSIONS OBJECT
+					- Use Sessions 
+					- Get Driver from SESSIONS OBJECT
+
+					- Don't Pass driver to Each Page Class Separately
+					- (Old Way - DONT Use this approach) Getting driver from TestCase 
+	
+	Question:	How to Pass Driver - to other OBJECTS - REPORTINGPage / VALIDATIONSPage ?
+					- Use Sessions 
+					- Get Driver from SESSIONS OBJECT
+					- Pass Driver into REPORTINGPage
+					- Pass Driver into VALIDATIONSPage
+	
+	Input	:	TEST CONTEXT
+				Get Driver from Session to Various Objects
+				PageClasses / Validations / Reporting
+				
+	Golden RULE	: 	ONE TestCase - ONE SESSION OBJECT 
+					Per TestCase ONLY One Object of SESSION OBJECT is MADE	
+					
+	Question:	When an Interface extends another Interface why to maintain all the methods
+					- NOT YET EXPLAINED 
+					- NOT YET EXPLAINED
+					- NOT YET EXPLAINED		
+				
+	-------------------------------------------------------------------------------------
+	Step1: Create ZohoSession.java -- under - com.zoho.session
+	
+	Video @ 42:30 - Step 2
+	
+	Step2: Create init() METHOD - under - ZohoSession.java
+				What does INIT() do?
+				- 
+				- 
+				- 
+				
+	
+	Step3: Design Code in init() Method
+	Step4: In the Test Case - Create a ZohoSession Object
+	Step5: Ensure DRIVER COMMAND is not there in Test Case 
+	Step6: Create com.zoho.web define 2 INTERFACES
+				> INTERFACE WEBCONNECTOR.java 
+						- Generic Browser Related methods
+				> INTERFACE ZOHOWEBCONNECTOR.java 
+						- Application Browser Related methods 
+				
+	Step7:  ZOHOWEBCONNECTOR.java EXTENDS WEBCONNECTOR.java
+	Step8:  RULE - When Interface Extends - Override all those METHODS ALSO
+	Step9:  Create ZOHODRIVER.java IMPLEMENTS ZohoWebConnector.java
+	Step10: 
+	
+	############################  END ####################################################################

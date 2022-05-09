@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/pavankumar/Downloads/Selenium Code"/>
+			<item value="/Users/pavankumar/Downloads/Selenium Code/ProjectStructure"/>
+			<item value="/Users/pavankumar/Downloads/Java-Bootcamp-Resources-main/Module 1 - Introduction to Java"/>
+			<item value="/Users/pavankumar/Downloads/codility-main/Codility/src/net/davekirkwood/codility/lessons/arrays"/>
+			<item value="/Users/pavankumar/Downloads/codility-main/Codility/src/net/davekirkwood/codility"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/Users/pavankumar/eclipse-workspace/JavaCoding/Codility/QS-DDF-Part-013-2"/>
+			<item value="/Users/pavankumar/eclipse-workspace/JavaCoding/Codility/QS-DDF-Part-013-1/src/test/java/testcases/rediff/Session.java"/>
+			<item value="/Users/pavankumar/eclipse-workspace/JavaCoding/Codility/QS-DDF-Part-012-1"/>
+			<item value="/Users/pavankumar/eclipse-workspace/JavaCoding/Codility/QS-DDF-Part-010-1"/>
+			<item value="/Users/pavankumar/eclipse-workspace/JavaCoding/Codility/QS-DDF-Part-12-1"/>
+			<item value="/Users/pavankumar/eclipse-workspace/JavaCoding/Codility/QS-DDF-Part-11-2-from-0230/reports/Mon May 02 22-04-12 CEST 2022/Index.html"/>
+			<item value="/Users/pavankumar/eclipse-workspace/JavaCoding/Codility/QS-DDF-Part-11-1-till-0230/pom.xml"/>
+			<item value="/Users/pavankumar/eclipse-workspace/JavaCoding/Codility/QS-DDF-Part-10-2-2222"/>
+			<item value="/Users/pavankumar/eclipse-workspace/JavaCoding/Codility/QS-DDF-Part-9-2-1800"/>
+			<item value="/Users/pavankumar/eclipse-workspace/JavaCoding/Codility/QS-DDF-Part-8-2-1400"/>
+			<item value="/Users/pavankumar/eclipse-workspace/JavaCoding/Codility/QS-DDF-Part-8-1"/>
+			<item value="/Users/pavankumar/eclipse-workspace/JavaCoding/Codility/QS-DDF-Part-3-3-PROPERTIES-Multiple-Files"/>
+			<item value="/Users/pavankumar/eclipse-workspace/JavaCoding/Codility/QS-DDF-Part-3-3"/>
+			<item value="/Users/pavankumar/eclipse-workspace/JavaCoding/Codility/QS-DDF-Part-3"/>
+			<item value="/Users/pavankumar/eclipse-workspace/JavaCoding/Codility/QS-DDF-Part-4-2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com"/>
+		</list>
+		<list key="name">
+			<item value="Part - 13 - 2"/>
+			<item value="DDF Part 13 Starting"/>
+			<item value="DDF Part 13 Starts @ 1:00"/>
+			<item value="DDF Video 12 "/>
+			<item value="Video 11 Starts @ 02:30"/>
+			<item value="DDF - Part 11"/>
+			<item value="Part 10 Starts @ 2222"/>
+			<item value="DDF part 10 - 1"/>
+			<item value="DDF Part 9 - 2- Starts @ 18:00"/>
+			<item value="DDF Video 9 Extent-Reports"/>
+			<item value="Video 8 DDF Starts @ 14:00 mins"/>
+			<item value="Expermenting as VIDEO4 getting errors"/>
+			<item value="Reading From Multiple Properties Files"/>
+			<item value="Read MULTIPLE Properties Files"/>
+			<item value="DDF - Video 4"/>
+		</list>
+		<list key="artifactId">
+			<item value="QS-DDF-Part-013-3"/>
+			<item value="QS-DDF-Part-013-2"/>
+			<item value="QS-DDF-Part-013-1"/>
+			<item value="QS-DDF-Part-13-1"/>
+			<item value="QS-DDF-Part-12-1"/>
+			<item value="QS-DDF-Part-11-2-from-0230"/>
+			<item value="QS-DDF-Part-11"/>
+			<item value="QS-DDF-Part-10-2-2222"/>
+			<item value="QS-DDF-Part-10-1"/>
+			<item value="QS-DDF-Part-9-2-1800"/>
+			<item value="QS-DDF-Part-9-1-Extent-Reports"/>
+			<item value="QS-DDF-Part-8-2-1400"/>
+			<item value="QS-DDF-Part3-4-Experiment"/>
+			<item value="QS-DDF-Part-3-3-PROPERTIES-Multiple-Files"/>
+			<item value="QS-Read-MULTIPLE-Properties-Files"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="Java-Bootcamp-Project"/>
+			<item value="Java-Bootcamp-Resources-mai"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Java-Bootcamp-Project"/>
+			<item value="Java-Bootcamp-Resources-mai"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenDependenciesWizardPage">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="494"/>
+		<item key="x" value="480"/>
+		<item key="y" value="50"/>
+	</section>
+</section>

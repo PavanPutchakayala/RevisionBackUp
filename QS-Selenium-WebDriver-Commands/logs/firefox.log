@@ -1,0 +1,15 @@
+1647091303720	geckodriver	INFO	Listening on 127.0.0.1:15543
+1647091353852	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/y1/98_0x7rs549d5nxjpgw_dt5r0000gn/T/rust_mozprofileUvMwCg"
+1647091354345	Marionette	INFO	Marionette enabled
+2022-03-12 13:22:35.323 firefox-bin[12044:806250] Warning: Expected min height of view: (<NSButton: 0x12f789800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-12 13:22:35.324 firefox-bin[12044:806250] Warning: Expected min height of view: (<NSButton: 0x13b54c400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-12 13:22:35.324 firefox-bin[12044:806250] Warning: Expected min height of view: (<NSButton: 0x13b546c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-12 13:22:35.325 firefox-bin[12044:806250] Warning: Expected min height of view: (<NSButton: 0x13b547000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-12 13:22:35.325 firefox-bin[12044:806250] Warning: Expected min height of view: (<NSButton: 0x13b549800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-12 13:22:35.325 firefox-bin[12044:806250] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13b54d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-03-12 13:22:35.326 firefox-bin[12044:806250] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12b7e1800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1647091356377	Marionette	INFO	Listening on port 61721
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+1647091356485	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.refersion.com/js/xdLocalStoragePostMessageApi.min.js?v=74.847747094393, line 1: SecurityError: The operation is insecure.

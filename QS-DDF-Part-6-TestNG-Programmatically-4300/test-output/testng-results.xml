@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-26T19:05:42 CEST" name="My Suite" finished-at="2022-04-26T19:05:42 CEST" duration-ms="55">
+    <groups>
+    </groups>
+    <test started-at="2022-04-26T19:05:42 CEST" name="Login Test" finished-at="2022-04-26T19:05:42 CEST" duration-ms="55">
+      <class name="testcases.Login">
+        <test-method signature="doLogin()[pri:0, instance:testcases.Login@77e9807f]" started-at="2022-04-26T19:05:42 CEST" name="doLogin" finished-at="2022-04-26T19:05:42 CEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- testcases.Login -->
+      <class name="testcases.Register">
+        <test-method signature="doRegister()[pri:0, instance:testcases.Register@2145433b]" started-at="2022-04-26T19:05:42 CEST" name="doRegister" finished-at="2022-04-26T19:05:42 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+      </class> <!-- testcases.Register -->
+      <class name="testcases.UpdateProfile">
+        <test-method signature="doUpdate()[pri:0, instance:testcases.UpdateProfile@2890c451]" started-at="2022-04-26T19:05:42 CEST" name="doUpdate" finished-at="2022-04-26T19:05:42 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUpdate -->
+      </class> <!-- testcases.UpdateProfile -->
+    </test> <!-- Login Test -->
+  </suite> <!-- My Suite -->
+</testng-results>

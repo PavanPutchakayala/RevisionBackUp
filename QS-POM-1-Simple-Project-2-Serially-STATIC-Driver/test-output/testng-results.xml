@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-29T19:22:36 IST" name="Suite" finished-at="2022-03-29T19:23:02 IST" duration-ms="25948">
+    <groups>
+    </groups>
+    <test started-at="2022-03-29T19:22:36 IST" name="Test A" finished-at="2022-03-29T19:22:48 IST" duration-ms="11382">
+      <class name="testcases.TestA">
+        <test-method signature="testA()[pri:0, instance:testcases.TestA@41c2284a]" started-at="2022-03-29T19:22:36 IST" name="testA" finished-at="2022-03-29T19:22:48 IST" duration-ms="11326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- testcases.TestA -->
+    </test> <!-- Test A -->
+    <test started-at="2022-03-29T19:22:53 IST" name="Test B" finished-at="2022-03-29T19:22:58 IST" duration-ms="4669">
+      <class name="testcases.TestB">
+        <test-method signature="testB()[pri:0, instance:testcases.TestB@503d687a]" started-at="2022-03-29T19:22:53 IST" name="testB" finished-at="2022-03-29T19:22:58 IST" duration-ms="4649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+      </class> <!-- testcases.TestB -->
+    </test> <!-- Test B -->
+    <test started-at="2022-03-29T19:22:58 IST" name="Test C" finished-at="2022-03-29T19:23:02 IST" duration-ms="4771">
+      <class name="testcases.TestC">
+        <test-method signature="testC()[pri:0, instance:testcases.TestC@4d910fd6]" started-at="2022-03-29T19:22:58 IST" name="testC" finished-at="2022-03-29T19:23:02 IST" duration-ms="4760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+      </class> <!-- testcases.TestC -->
+    </test> <!-- Test C -->
+  </suite> <!-- Suite -->
+</testng-results>

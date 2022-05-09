@@ -1,0 +1,85 @@
+#################################
+@@@ ---  QS-DDF-Part-4-2 ---  @@@
+#################################
+
+Application KeyWords
+--------------------
+	Questions :
+		Q> 
+		Q> 
+		
+	Modifications :
+		M> @ > Video :> 
+		M> @ > Video :> 	
+		
+
+
+Generic Keywords
+-----------------
+	Questions :
+		Q> 
+		Q> 
+		
+	Modifications :
+		M> @ > Video :> 
+		M> @ > Video :> 
+
+Validation Keywords
+--------------------
+	Questions :
+		Q> 
+		Q> 
+		
+	Modifications :
+		M> @ > Video :> 
+		M> @ > Video :> 
+
+env.properties
+---------------
+	Questions :
+		Q> 
+		Q> 
+		
+	Modifications :
+		M> @ > Video :> 
+		M> @ > Video :> 
+
+prod.properties
+----------------
+	Questions :
+		Q> 
+		Q> 
+		
+	Modifications :
+		M> @ > Video :> 
+		M> @ > Video :> 
+
+uat.properties
+---------------
+	Questions :
+		Q> 
+		Q> 
+		
+	Modifications :
+		M> @ > Video :> 
+		M> @ > Video :> 
+
+CreateProfile
+--------------
+	Questions :
+		Q> 
+		Q> 
+		
+	Modifications :
+		M> @ > Video :> 
+		M> @ > Video :> 
+
+POM.xml
+--------
+	Questions :
+		Q> 
+		Q> 
+		
+	Modifications :
+		M> @ > Video :> 
+		M> @ > Video :> 

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ZohoTestSession.java&apos; to &apos;com.zoho.session.ZohoTestSession.java&apos;&#x0A;- Original project: &apos;QS-POM-4-ZOHO-POMProj-Revision&apos;&#x0A;- Destination element: &apos;com.zoho.session.ZohoTestSession.java&apos;&#x0A;- Original element: &apos;com.zoho.session.ZohoTestSession.java&apos;" description="Copy compilation unit" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.zoho.session{ZohoTestSession.java" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.zoho.session{ZohoTestSession.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1649279224182" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite B" duration-ms="8284" started-at="2022-03-13T11:26:04 GMT" finished-at="2022-03-13T11:26:12 GMT">
+    <groups>
+    </groups>
+    <test name="Test B" duration-ms="4120" started-at="2022-03-13T11:26:04 GMT" finished-at="2022-03-13T11:26:08 GMT">
+      <class name="suiteb.TestB">
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:suiteb.TestB@38bc8ab5]" name="init" is-config="true" duration-ms="1" started-at="2022-03-13T11:26:04 GMT" finished-at="2022-03-13T11:26:04 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestB.testB(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestB@38bc8ab5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testB(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestB@38bc8ab5]" name="testB" duration-ms="2014" started-at="2022-03-13T11:26:04 GMT" data-provider="dataSuiteB" finished-at="2022-03-13T11:26:06 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[B1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ROW1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suiteb.TestB@38bc8ab5]" name="quit" is-config="true" duration-ms="16" started-at="2022-03-13T11:26:06 GMT" finished-at="2022-03-13T11:26:06 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:suiteb.TestB@38bc8ab5]" name="init" is-config="true" duration-ms="1" started-at="2022-03-13T11:26:06 GMT" finished-at="2022-03-13T11:26:06 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestB.testB(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestB@38bc8ab5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testB(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestB@38bc8ab5]" name="testB" duration-ms="2015" started-at="2022-03-13T11:26:06 GMT" data-provider="dataSuiteB" finished-at="2022-03-13T11:26:08 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[B1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ROW2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suiteb.TestB@38bc8ab5]" name="quit" is-config="true" duration-ms="41" started-at="2022-03-13T11:26:08 GMT" finished-at="2022-03-13T11:26:08 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suiteb.TestB -->
+    </test> <!-- Test B -->
+    <test name="Test BB" duration-ms="4153" started-at="2022-03-13T11:26:08 GMT" finished-at="2022-03-13T11:26:12 GMT">
+      <class name="suiteb.TestBB">
+        <test-method status="PASS" signature="testBB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestBB@29b5cd00]" name="testBB" duration-ms="2015" started-at="2022-03-13T11:26:08 GMT" data-provider="dataSuiteB" finished-at="2022-03-13T11:26:10 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BB1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ROW1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBB -->
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:suiteb.TestBB@29b5cd00]" name="init" is-config="true" duration-ms="0" started-at="2022-03-13T11:26:08 GMT" finished-at="2022-03-13T11:26:08 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestBB.testBB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestBB@29b5cd00] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suiteb.TestBB@29b5cd00]" name="quit" is-config="true" duration-ms="50" started-at="2022-03-13T11:26:10 GMT" finished-at="2022-03-13T11:26:10 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:suiteb.TestBB@29b5cd00]" name="init" is-config="true" duration-ms="3" started-at="2022-03-13T11:26:10 GMT" finished-at="2022-03-13T11:26:10 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestBB.testBB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestBB@29b5cd00] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testBB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestBB@29b5cd00]" name="testBB" duration-ms="2016" started-at="2022-03-13T11:26:10 GMT" data-provider="dataSuiteB" finished-at="2022-03-13T11:26:12 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BB1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ROW2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBB -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suiteb.TestBB@29b5cd00]" name="quit" is-config="true" duration-ms="34" started-at="2022-03-13T11:26:12 GMT" finished-at="2022-03-13T11:26:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suiteb.TestBB -->
+    </test> <!-- Test BB -->
+  </suite> <!-- Suite B -->
+  <suite name="Suite C" duration-ms="10395" started-at="2022-03-13T11:26:12 GMT" finished-at="2022-03-13T11:26:22 GMT">
+    <groups>
+    </groups>
+    <test name="Test C" duration-ms="4125" started-at="2022-03-13T11:26:12 GMT" finished-at="2022-03-13T11:26:16 GMT">
+      <class name="suitec.TestC">
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:suitec.TestC@5bfbf16f]" name="init" is-config="true" duration-ms="1" started-at="2022-03-13T11:26:12 GMT" finished-at="2022-03-13T11:26:12 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestC.testC(java.lang.String)[pri:0, instance:suitec.TestC@5bfbf16f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testC(java.lang.String)[pri:0, instance:suitec.TestC@5bfbf16f]" name="testC" duration-ms="2008" started-at="2022-03-13T11:26:12 GMT" data-provider="dataSuiteC" finished-at="2022-03-13T11:26:14 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suitec.TestC@5bfbf16f]" name="quit" is-config="true" duration-ms="19" started-at="2022-03-13T11:26:14 GMT" finished-at="2022-03-13T11:26:14 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:suitec.TestC@5bfbf16f]" name="init" is-config="true" duration-ms="3" started-at="2022-03-13T11:26:14 GMT" finished-at="2022-03-13T11:26:14 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestC.testC(java.lang.String)[pri:0, instance:suitec.TestC@5bfbf16f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testC(java.lang.String)[pri:0, instance:suitec.TestC@5bfbf16f]" name="testC" duration-ms="2017" started-at="2022-03-13T11:26:14 GMT" data-provider="dataSuiteC" finished-at="2022-03-13T11:26:16 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suitec.TestC@5bfbf16f]" name="quit" is-config="true" duration-ms="47" started-at="2022-03-13T11:26:16 GMT" finished-at="2022-03-13T11:26:16 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suitec.TestC -->
+    </test> <!-- Test C -->
+    <test name="Test CC" duration-ms="6261" started-at="2022-03-13T11:26:16 GMT" finished-at="2022-03-13T11:26:22 GMT">
+      <class name="suitec.TestCC">
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:suitec.TestCC@7b69c6ba]" name="init" is-config="true" duration-ms="1" started-at="2022-03-13T11:26:16 GMT" finished-at="2022-03-13T11:26:16 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestCC.testCC(java.lang.String, java.lang.String)[pri:0, instance:suitec.TestCC@7b69c6ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testCC(java.lang.String, java.lang.String)[pri:0, instance:suitec.TestCC@7b69c6ba]" name="testCC" duration-ms="2014" started-at="2022-03-13T11:26:16 GMT" data-provider="dataSuiteC" finished-at="2022-03-13T11:26:18 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CC1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCC -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suitec.TestCC@7b69c6ba]" name="quit" is-config="true" duration-ms="38" started-at="2022-03-13T11:26:18 GMT" finished-at="2022-03-13T11:26:18 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:suitec.TestCC@7b69c6ba]" name="init" is-config="true" duration-ms="5" started-at="2022-03-13T11:26:18 GMT" finished-at="2022-03-13T11:26:18 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestCC.testCC(java.lang.String, java.lang.String)[pri:0, instance:suitec.TestCC@7b69c6ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testCC(java.lang.String, java.lang.String)[pri:0, instance:suitec.TestCC@7b69c6ba]" name="testCC" duration-ms="2010" started-at="2022-03-13T11:26:18 GMT" data-provider="dataSuiteC" finished-at="2022-03-13T11:26:20 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CC2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCC -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suitec.TestCC@7b69c6ba]" name="quit" is-config="true" duration-ms="34" started-at="2022-03-13T11:26:20 GMT" finished-at="2022-03-13T11:26:20 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:suitec.TestCC@7b69c6ba]" name="init" is-config="true" duration-ms="1" started-at="2022-03-13T11:26:20 GMT" finished-at="2022-03-13T11:26:20 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestCC.testCC(java.lang.String, java.lang.String)[pri:0, instance:suitec.TestCC@7b69c6ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testCC(java.lang.String, java.lang.String)[pri:0, instance:suitec.TestCC@7b69c6ba]" name="testCC" duration-ms="2011" started-at="2022-03-13T11:26:20 GMT" data-provider="dataSuiteC" finished-at="2022-03-13T11:26:22 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CC3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCC -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suitec.TestCC@7b69c6ba]" name="quit" is-config="true" duration-ms="120" started-at="2022-03-13T11:26:22 GMT" finished-at="2022-03-13T11:26:22 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suitec.TestCC -->
+    </test> <!-- Test CC -->
+  </suite> <!-- Suite C -->
+  <suite name="My Test Suite" duration-ms="0" started-at="2022-03-13T11:26:23 GMT" finished-at="2022-03-13T11:26:23 GMT">
+    <groups>
+    </groups>
+  </suite> <!-- My Test Suite -->
+  <suite name="Suite A" duration-ms="8795" started-at="2022-03-13T11:25:55 GMT" finished-at="2022-03-13T11:26:04 GMT">
+    <groups>
+    </groups>
+    <test name="Test A" duration-ms="4663" started-at="2022-03-13T11:25:55 GMT" finished-at="2022-03-13T11:26:00 GMT">
+      <class name="suitea.TestA">
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:suitea.TestA@33c7e1bb]" name="init" is-config="true" duration-ms="113" started-at="2022-03-13T11:25:55 GMT" finished-at="2022-03-13T11:25:55 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestA.testA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@33c7e1bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@33c7e1bb]" name="testA" duration-ms="2019" started-at="2022-03-13T11:25:55 GMT" data-provider="dataSuiteA" finished-at="2022-03-13T11:25:57 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A00000001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suitea.TestA@33c7e1bb]" name="quit" is-config="true" duration-ms="392" started-at="2022-03-13T11:25:57 GMT" finished-at="2022-03-13T11:25:57 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:suitea.TestA@33c7e1bb]" name="init" is-config="true" duration-ms="1" started-at="2022-03-13T11:25:57 GMT" finished-at="2022-03-13T11:25:57 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestA.testA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@33c7e1bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@33c7e1bb]" name="testA" duration-ms="2011" started-at="2022-03-13T11:25:57 GMT" data-provider="dataSuiteA" finished-at="2022-03-13T11:26:00 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suitea.TestA@33c7e1bb]" name="quit" is-config="true" duration-ms="40" started-at="2022-03-13T11:26:00 GMT" finished-at="2022-03-13T11:26:00 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suitea.TestA -->
+    </test> <!-- Test A -->
+    <test name="Test AA" duration-ms="4116" started-at="2022-03-13T11:26:00 GMT" finished-at="2022-03-13T11:26:04 GMT">
+      <class name="suitea.TestAA">
+        <test-method status="PASS" signature="testAA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestAA@3e57cd70]" name="testAA" duration-ms="2012" started-at="2022-03-13T11:26:00 GMT" data-provider="dataSuiteA" finished-at="2022-03-13T11:26:02 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AA1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PP1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAA -->
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:suitea.TestAA@3e57cd70]" name="init" is-config="true" duration-ms="0" started-at="2022-03-13T11:26:00 GMT" finished-at="2022-03-13T11:26:00 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestAA.testAA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestAA@3e57cd70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suitea.TestAA@3e57cd70]" name="quit" is-config="true" duration-ms="35" started-at="2022-03-13T11:26:02 GMT" finished-at="2022-03-13T11:26:02 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:suitea.TestAA@3e57cd70]" name="init" is-config="true" duration-ms="0" started-at="2022-03-13T11:26:02 GMT" finished-at="2022-03-13T11:26:02 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestAA.testAA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestAA@3e57cd70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testAA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestAA@3e57cd70]" name="testAA" duration-ms="2013" started-at="2022-03-13T11:26:02 GMT" data-provider="dataSuiteA" finished-at="2022-03-13T11:26:04 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AA2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PP2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAA -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suitea.TestAA@3e57cd70]" name="quit" is-config="true" duration-ms="36" started-at="2022-03-13T11:26:04 GMT" finished-at="2022-03-13T11:26:04 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suitea.TestAA -->
+    </test> <!-- Test AA -->
+  </suite> <!-- Suite A -->
+</testng-results>

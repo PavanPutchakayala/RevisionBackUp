@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="file:///Users/pavankumar/eclipse-workspace/JavaCoding/Codility/QS-POM-4-ZOHO-POMProj-3-NAVAMI"/>
+		<item value="https://github.com/PavanPutchakayala/QTPSelenium-Issues.git"/>
+		<item value="https://pavan.putchakayala%40gmail.com@github.com/https://github.com/PavanPutchakayala/QTPSelenium-Issues"/>
+		<item value="ssh://pavan.putchakayala%40gmail.com@github.com/https://github.com/PavanPutchakayala/QTPSelenium-Issues"/>
+		<item value="ssh://pavan.putchakayala%40gmail.com@github.com/PavanPutchakayala/QTPSelenium-Issues.git"/>
+		<item value="pavan.putchakayala%40gmail.com@github.com:PavanPutchakayala/QTPSelenium-Issues.git"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+</section>

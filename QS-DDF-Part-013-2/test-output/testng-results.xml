@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Portfolio Suite" duration-ms="42919" started-at="2022-05-08T09:05:34 CEST" finished-at="2022-05-08T09:06:17 CEST">
+    <groups>
+    </groups>
+    <test name="Create Portfolio Test" duration-ms="23749" started-at="2022-05-08T09:05:34 CEST" finished-at="2022-05-08T09:05:57 CEST">
+      <class name="testcases.rediff.PortfolioManagement">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@eb21112]" name="beforeTest" is-config="true" duration-ms="18451" started-at="2022-05-08T09:05:34 CEST" finished-at="2022-05-08T09:05:52 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5fe8b721]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@eb21112]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-05-08T09:05:52 CEST" finished-at="2022-05-08T09:05:52 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5fe8b721]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createPortfolio(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@eb21112]" name="createPortfolio" duration-ms="4678" started-at="2022-05-08T09:05:52 CEST" finished-at="2022-05-08T09:05:57 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5fe8b721]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPortfolio -->
+        <test-method status="PASS" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@eb21112]" name="quit" is-config="true" duration-ms="505" started-at="2022-05-08T09:05:57 CEST" finished-at="2022-05-08T09:05:57 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5fe8b721]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+    </test> <!-- Create Portfolio Test -->
+    <test name="Delete Portfolio Test" duration-ms="19130" started-at="2022-05-08T09:05:57 CEST" finished-at="2022-05-08T09:06:17 CEST">
+      <class name="testcases.rediff.PortfolioManagement">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@1068e947]" name="beforeTest" is-config="true" duration-ms="16206" started-at="2022-05-08T09:05:57 CEST" finished-at="2022-05-08T09:06:14 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@56de6d6b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@1068e947]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2022-05-08T09:06:14 CEST" finished-at="2022-05-08T09:06:14 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@56de6d6b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="deletePortfolio(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@1068e947]" name="deletePortfolio" duration-ms="2762" started-at="2022-05-08T09:06:14 CEST" finished-at="2022-05-08T09:06:16 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@56de6d6b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePortfolio -->
+        <test-method status="PASS" signature="quit(org.testng.ITestContext)[pri:0, instance:testcases.rediff.PortfolioManagement@1068e947]" name="quit" is-config="true" duration-ms="138" started-at="2022-05-08T09:06:16 CEST" finished-at="2022-05-08T09:06:17 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@56de6d6b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.rediff.PortfolioManagement -->
+    </test> <!-- Delete Portfolio Test -->
+  </suite> <!-- Portfolio Suite -->
+</testng-results>

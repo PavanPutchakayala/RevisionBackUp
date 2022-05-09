@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Constants.java&apos; to &apos;QS-POM-4-ZOHO-POMProj-3/src/main/java/com.zoho.base.pages&apos;&#x0A;- Original project: &apos;QS-POM-3-POMDummyExample-PAGE-FACTORY-NO-REPEAT&apos;&#x0A;- Destination element: &apos;QS-POM-4-ZOHO-POMProj-3/src/main/java/com.zoho.base.pages&apos;&#x0A;- Original element: &apos;arevision.Constants.java&apos;" description="Copy compilation unit" destination="=QS-POM-4-ZOHO-POMProj-3/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.zoho.base.pages" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;arevision{Constants.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1649461438342" units="1" version="1.0"/>
+</session>

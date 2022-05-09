@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;QS-POM-2-OOPS-Explained&apos; to &apos;QS-POM-3-POMDummyExample&apos;&#x0A;- Original project: &apos;QS-POM-2-OOPS-Explained-3&apos;&#x0A;- Destination element: &apos;QS-POM-3-POMDummyExample&apos;&#x0A;- Original element: &apos;QS-POM-2-OOPS-Explained&apos;" description="Copy file" element1="QS-POM-2-OOPS-Explained" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1648804772492" target="/QS-POM-3-POMDummyExample" units="0" version="1.0"/>
+</session>

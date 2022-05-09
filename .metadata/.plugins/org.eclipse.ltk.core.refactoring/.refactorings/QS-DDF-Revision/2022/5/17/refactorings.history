@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;QS-DDF-Revision&apos;&#x0A;- Original project: &apos;QS-DDF-Revision&apos;&#x0A;- Original elements:&#x0A;     QS-DDF-Revision/src/test/java/runner&#x0A;     QS-DDF-Revision/src/test/java/testcases" description="Delete elements" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;testcases" element2="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;runner" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1651386017560" subPackages="false" version="1.0"/>
+</session>

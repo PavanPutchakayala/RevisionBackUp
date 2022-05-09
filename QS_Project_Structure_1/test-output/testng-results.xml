@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4689" started-at="2022-03-10T18:44:03 GMT" finished-at="2022-03-10T18:44:08 GMT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4689" started-at="2022-03-10T18:44:03 GMT" finished-at="2022-03-10T18:44:08 GMT">
+      <class name="suitea.TestA">
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:suitea.TestA@1877ab81]" name="init" is-config="true" duration-ms="119" started-at="2022-03-10T18:44:04 GMT" finished-at="2022-03-10T18:44:04 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestA.testA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@1877ab81] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@1877ab81]" name="testA" duration-ms="2019" started-at="2022-03-10T18:44:04 GMT" data-provider="dataSuiteA" finished-at="2022-03-10T18:44:06 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suitea.TestA@1877ab81]" name="quit" is-config="true" duration-ms="431" started-at="2022-03-10T18:44:06 GMT" finished-at="2022-03-10T18:44:06 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="init(org.testng.ITestResult)[pri:0, instance:suitea.TestA@1877ab81]" name="init" is-config="true" duration-ms="1" started-at="2022-03-10T18:44:06 GMT" finished-at="2022-03-10T18:44:06 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestA.testA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@1877ab81] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@1877ab81]" name="testA" duration-ms="2008" started-at="2022-03-10T18:44:06 GMT" data-provider="dataSuiteA" finished-at="2022-03-10T18:44:08 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suitea.TestA@1877ab81]" name="quit" is-config="true" duration-ms="33" started-at="2022-03-10T18:44:08 GMT" finished-at="2022-03-10T18:44:08 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suitea.TestA -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

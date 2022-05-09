@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-10T09:39:10 GMT" name="Suite" finished-at="2022-03-10T09:39:16 GMT" duration-ms="5842">
+    <groups>
+    </groups>
+    <test started-at="2022-03-10T09:39:10 GMT" name="Login Test" finished-at="2022-03-10T09:39:11 GMT" duration-ms="759">
+      <class name="testcases.LoginTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:testcases.LoginTest@8317c52]" started-at="2022-03-10T09:39:10 GMT" name="init" finished-at="2022-03-10T09:39:11 GMT" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="login()[pri:0, instance:testcases.LoginTest@8317c52]" started-at="2022-03-10T09:39:11 GMT" name="login" finished-at="2022-03-10T09:39:11 GMT" duration-ms="20" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[404 error]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 404 error
+at org.testng.Assert.fail(Assert.java:97)
+at testcases.LoginTest.login(LoginTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcases.LoginTest@8317c52]" started-at="2022-03-10T09:39:11 GMT" name="quit" finished-at="2022-03-10T09:39:11 GMT" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Login Test -->
+    <test started-at="2022-03-10T09:39:16 GMT" name="Reg Test" finished-at="2022-03-10T09:39:16 GMT" duration-ms="38">
+      <class name="testcases.RegTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:testcases.RegTest@140c9f39]" started-at="2022-03-10T09:39:16 GMT" name="init" finished-at="2022-03-10T09:39:16 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="doRegister()[pri:0, instance:testcases.RegTest@140c9f39]" started-at="2022-03-10T09:39:16 GMT" name="doRegister" finished-at="2022-03-10T09:39:16 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcases.RegTest@140c9f39]" started-at="2022-03-10T09:39:16 GMT" name="quit" finished-at="2022-03-10T09:39:16 GMT" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.RegTest -->
+    </test> <!-- Reg Test -->
+  </suite> <!-- Suite -->
+</testng-results>
